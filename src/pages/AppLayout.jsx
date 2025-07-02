@@ -10,7 +10,7 @@ function AppLayout() {
       <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_auto_1fr] pt-16 lg:grid-cols-[28rem_1fr] lg:grid-rows-[auto_1fr]">
         <Sidebar />
 
-        <main className="mx-auto mr-40 mt-16 w-[800px] max-w-4xl rounded-2xl bg-white px-6 py-8 shadow-sm lg:py-12 dark:bg-gray-800">
+        <main className="mx-auto w-full max-w-4xl rounded-2xl bg-white px-4 py-6 shadow-sm sm:px-6 sm:py-8 lg:mx-8 lg:mt-16 lg:px-8 lg:py-12 dark:bg-gray-800">
           <Outlet />
         </main>
       </div>
